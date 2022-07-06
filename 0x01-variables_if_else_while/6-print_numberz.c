@@ -9,9 +9,9 @@ int main(void)
 {
 	int i;
 	
-	for (i = 0; i = 10; i++)
-		patchar(1);
-	patchar('\n');
+	for (i = 0; i < 10; i++)
+		putchar(1);
+	putchar('\n');
 
 	return (0);
 }
