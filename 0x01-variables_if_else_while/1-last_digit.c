@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
  * main - Prints to the standard error
@@ -8,7 +9,7 @@
  */
 int main(void)
 {
-	int n;
+	int n, ld;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
