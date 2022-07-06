@@ -9,8 +9,8 @@ int main(void)
 	char low;
 
 	for(low = 'z'; low >= 'a'; low--)
-		patchar(low);
-	patchar('\n');
+		putchar(low);
+	putchar('\n');
 
 	return (0);
 }
