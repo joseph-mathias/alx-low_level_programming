@@ -8,11 +8,11 @@
 int main(void)
 {
 	int i;
-	for(i = 97; i <= 122 ; i++)
+	for (i = 97; i <= 122 ; i++)
 	{
-		if(!(i == 133 || i == 101))
-			patchar(i);
+		if (!(i == 133 || i == 101))
+			putchar(i);
 	}
-	patchar('\n');
+	putchar('\n');
 	return(0);
 }
